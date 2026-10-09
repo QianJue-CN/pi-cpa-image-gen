@@ -1,0 +1,13 @@
+{
+  "name": "pi-cpa-image-gen",
+  "version": "1.0.0",
+  "description": "Generate images through a CPA OpenAI-compatible proxy in Pi.",
+  "keywords": ["pi-package", "pi-extension", "image-generation"],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": ["./extensions/cpa-image-gen.ts"]
+  }
+}
